@@ -1,0 +1,64 @@
+{% extends "base.html" %}{% block titulo %}Resumen{% endblock %}{% block cuerpo %}
+<h1>Resumen de la carga</h1>
+<p class="sub">{{ fuente.source_description }} · CDM {{ fuente.cdm_version }} · vocabulario: {{ fuente.vocabulary_version }}</p>
+
+<div class="grid">
+{% for t, n in r.conteos.items() %}
+  <div class="card kpi"><div class="n">{{ "{:,}".format(n).replace(",", ".") }}</div><div class="l">{{ t }}</div></div>
+{% endfor %}
+</div>
+
+<div class="g2">
+  <div class="card">
+    <h2>Cobertura de mapeo (concept_id ≠ 0)</h2>
+    <table>
+      <tr><th>Dominio</th><th class="r">Registros</th><th class="r">Mapeados</th><th></th><th class="r">%</th></tr>
+      {% for c in r.cobertura %}
+      <tr><td>{{ c.etiqueta }}</td><td class="r">{{ c.total }}</td><td class="r">{{ c.mapeados }}</td>
+          <td><div class="bar"><i style="width:{{ c.pct }}%"></i></div></td><td class="r">{{ c.pct }}</td></tr>
+      {% endfor %}
+    </table>
+    <p class="muted">Lo no mapeado se carga con concept_id 0: ver <a href="{{ url_for('sin_mapear') }}">Sin mapear</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Incidencias de la ETL</h2>
+    <table>
+      {% for nivel in ['RECHAZO','AVISO','CORREGIDO'] %}
+      <tr><td><a href="{{ url_for('incidencias', nivel=nivel) }}"><span class="tag {{ nivel }}">{{ nivel }}</span></a></td>
+          <td class="r">{{ r.niveles.get(nivel, 0) }}</td></tr>
+      {% endfor %}
+    </table>
+    {% if r.evaluacion %}
+    <p>Errores inyectados en el Excel: <b>{{ r.evaluacion.detectados }}/{{ r.evaluacion.total }}</b> detectados,
+       <b>{{ r.evaluacion.aciertos }}/{{ r.evaluacion.total }}</b> tratados como se esperaba.
+       <a href="{{ url_for('evaluacion') }}">Detalle</a></p>
+    {% endif %}
+    <h2 style="margin-top:18px">Personas</h2>
+    <table>{% for s in sexo %}<tr><td>{{ s.nombre }}</td><td class="r">{{ s.n }}</td></tr>{% endfor %}</table>
+    <table style="margin-top:10px">
+      <tr><th>Edad actual</th><th class="r">n</th><th></th></tr>
+      {% set maxe = edades|map(attribute='n')|max %}
+      {% for e in edades %}
+      <tr><td>{{ e.grupo }}–{{ e.grupo + 9 }}</td><td class="r">{{ e.n }}</td>
+          <td style="width:55%"><div class="bar"><i style="width:{{ 100*e.n/maxe }}%"></i></div></td></tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+<div class="g2">
+{% for titulo, filas in top.items() %}
+  <div class="card">
+    <h2>Top {{ titulo|lower }}</h2>
+    <table>
+      <tr><th>concept_id</th><th>Concepto estándar</th><th class="r">Registros</th><th class="r">Pacientes</th></tr>
+      {% for f in filas %}
+      <tr><td class="{{ 'cero' if f.id == 0 }}">{{ f.id }}</td><td>{{ f.nombre }} <span class="muted">{{ f.voc or '' }}</span></td>
+          <td class="r">{{ f.n }}</td><td class="r">{{ f.pacientes }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+{% endfor %}
+</div>
+{% endblock %}

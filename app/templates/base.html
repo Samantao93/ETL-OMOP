@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% block titulo %}OMOP{% endblock %} · Visor OMOP CDM</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+<header>
+  <b>Visor OMOP CDM 5.4</b>
+  <nav>
+  {% set rutas = [('inicio','Resumen'),('incidencias','Incidencias ETL'),('sin_mapear','Sin mapear'),('evaluacion','Evaluación'),('personas','Personas')] %}
+  {% for r, t in rutas %}<a href="{{ url_for(r) }}" class="{{ 'on' if request.endpoint == r else '' }}">{{ t }}</a>{% endfor %}
+  </nav>
+</header>
+<main>{% block cuerpo %}{% endblock %}</main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}{% block titulo %}Sin mapear{% endblock %}{% block cuerpo %}
+<h1>Códigos de origen sin concepto estándar</h1>
+<p class="sub">Se han cargado con <code>concept_id = 0</code> y el código original en <code>*_source_value</code>.
+Es la lista de trabajo para revisar en <a href="https://github.com/OHDSI/Usagi">Usagi</a> y añadir a
+<code>vocab/source_to_concept_map.csv</code>.</p>
+
+<div class="g2">
+{% for b in bloques %}
+  <div class="card">
+    <h2>{{ b.etiqueta }} <span class="muted">({{ b.tabla }})</span></h2>
+    {% if b.filas %}
+    <table>
+      <tr><th>Código origen</th><th class="r">Registros</th></tr>
+      {% for f in b.filas %}
+      <tr><td><code>{{ f.codigo if f.codigo is not none else '(vacío)' }}</code></td><td class="r">{{ f.n }}</td></tr>
+      {% endfor %}
+    </table>
+    {% else %}<p class="muted">Todo mapeado ✔</p>{% endif %}
+  </div>
+{% endfor %}
+</div>
+{% endblock %}

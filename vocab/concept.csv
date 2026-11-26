@@ -1,0 +1,60 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept
+8507,MALE,Gender,Gender,Gender,S
+8532,FEMALE,Gender,Gender,Gender,S
+9201,Inpatient Visit,Visit,Visit,Visit,S
+9202,Outpatient Visit,Visit,Visit,Visit,S
+9203,Emergency Room Visit,Visit,Visit,Visit,S
+32817,EHR,Type Concept,Type Concept,Type Concept,S
+756265,OMOP CDM Version 5.4.0,Metadata,CDM,CDM,S
+201826,Type 2 diabetes mellitus,Condition,SNOMED,Clinical Finding,S
+320128,Essential hypertension,Condition,SNOMED,Clinical Finding,S
+317009,Asthma,Condition,SNOMED,Clinical Finding,S
+432867,Hyperlipidemia,Condition,SNOMED,Clinical Finding,S
+255573,Chronic obstructive lung disease,Condition,SNOMED,Clinical Finding,S
+440383,Depressive disorder,Condition,SNOMED,Clinical Finding,S
+313217,Atrial fibrillation,Condition,SNOMED,Clinical Finding,S
+312327,Acute myocardial infarction,Condition,SNOMED,Clinical Finding,S
+316139,Heart failure,Condition,SNOMED,Clinical Finding,S
+255848,Pneumonia,Condition,SNOMED,Clinical Finding,S
+46271022,Chronic kidney disease,Condition,SNOMED,Clinical Finding,S
+433736,Obesity,Condition,SNOMED,Clinical Finding,S
+318736,Migraine,Condition,SNOMED,Clinical Finding,S
+140673,Hypothyroidism,Condition,SNOMED,Clinical Finding,S
+80180,Osteoarthritis,Condition,SNOMED,Clinical Finding,S
+318800,Gastroesophageal reflux disease,Condition,SNOMED,Clinical Finding,S
+1503297,metformin,Drug,RxNorm,Ingredient,S
+1308216,lisinopril,Drug,RxNorm,Ingredient,S
+1341927,enalapril,Drug,RxNorm,Ingredient,S
+1545958,atorvastatin,Drug,RxNorm,Ingredient,S
+1332418,amlodipine,Drug,RxNorm,Ingredient,S
+923645,omeprazole,Drug,RxNorm,Ingredient,S
+1154343,albuterol,Drug,RxNorm,Ingredient,S
+1501700,levothyroxine,Drug,RxNorm,Ingredient,S
+1177480,ibuprofen,Drug,RxNorm,Ingredient,S
+1125315,acetaminophen,Drug,RxNorm,Ingredient,S
+956874,furosemide,Drug,RxNorm,Ingredient,S
+1310149,warfarin,Drug,RxNorm,Ingredient,S
+739138,sertraline,Drug,RxNorm,Ingredient,S
+3004501,Glucose [Mass/volume] in Serum or Plasma,Measurement,LOINC,Lab Test,S
+3004410,Hemoglobin A1c/Hemoglobin.total in Blood,Measurement,LOINC,Lab Test,S
+3027114,Cholesterol [Mass/volume] in Serum or Plasma,Measurement,LOINC,Lab Test,S
+3028288,Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation,Measurement,LOINC,Lab Test,S
+3007070,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Measurement,LOINC,Lab Test,S
+3016723,Creatinine [Mass/volume] in Serum or Plasma,Measurement,LOINC,Lab Test,S
+3000963,Hemoglobin [Mass/volume] in Blood,Measurement,LOINC,Lab Test,S
+3019550,Sodium [Moles/volume] in Serum or Plasma,Measurement,LOINC,Lab Test,S
+3023103,Potassium [Moles/volume] in Serum or Plasma,Measurement,LOINC,Lab Test,S
+3025315,Body weight,Measurement,LOINC,Clinical Observation,S
+3036277,Body height,Measurement,LOINC,Clinical Observation,S
+3004249,Systolic blood pressure,Measurement,LOINC,Clinical Observation,S
+3012888,Diastolic blood pressure,Measurement,LOINC,Clinical Observation,S
+8840,milligram per deciliter,Unit,UCUM,Unit,S
+8554,percent,Unit,UCUM,Unit,S
+8713,gram per deciliter,Unit,UCUM,Unit,S
+8753,millimole per liter,Unit,UCUM,Unit,S
+9529,kilogram,Unit,UCUM,Unit,S
+8582,centimeter,Unit,UCUM,Unit,S
+8876,millimeter mercury column,Unit,UCUM,Unit,S
+4171756,<,Meas Value Operator,Meas Value Operator,Meas Value Operator,S
+4172704,>,Meas Value Operator,Meas Value Operator,Meas Value Operator,S
+4172703,=,Meas Value Operator,Meas Value Operator,Meas Value Operator,S

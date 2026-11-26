@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% block titulo %}Personas{% endblock %}{% block cuerpo %}
+<h1>Personas</h1>
+<p class="sub">Tabla <code>person</code>. Los nombres y apellidos del Excel no se cargan en OMOP.</p>
+<form><input name="q" value="{{ texto }}" placeholder="Id de origen, p. ej. P00042"><button>Buscar</button></form>
+
+<div class="card">
+  <table>
+    <tr><th>person_id</th><th>Id origen</th><th>Año nac.</th><th>Sexo (origen → OMOP)</th><th>CP</th><th>Provincia</th>
+        <th class="r">Visitas</th><th class="r">Diagnósticos</th></tr>
+    {% for p in filas %}
+    <tr><td><a href="{{ url_for('persona', person_id=p.person_id) }}">{{ p.person_id }}</a></td>
+        <td><code>{{ p.person_source_value }}</code></td><td>{{ p.year_of_birth }}</td>
+        <td><code>{{ p.gender_source_value }}</code> → {{ p.sexo }}</td><td>{{ p.zip or '—' }}</td><td>{{ p.county or '' }}</td>
+        <td class="r">{{ p.visitas }}</td><td class="r">{{ p.diags }}</td></tr>
+    {% endfor %}
+  </table>
+  <p class="muted">Máximo 200 filas.</p>
+</div>
+{% endblock %}

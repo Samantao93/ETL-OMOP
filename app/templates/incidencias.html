@@ -1,0 +1,38 @@
+{% extends "base.html" %}{% block titulo %}Incidencias{% endblock %}{% block cuerpo %}
+<h1>Incidencias de la ETL</h1>
+<p class="sub">Todo lo que la ETL corrigió, cargó con aviso o rechazó (tabla <code>etl_incidencias</code>).</p>
+
+<form>
+  <select name="tabla"><option value="">Todas las hojas</option>
+    {% for o in opciones.tabla %}<option {{ 'selected' if o == f.tabla }}>{{ o }}</option>{% endfor %}</select>
+  <select name="nivel"><option value="">Todos los niveles</option>
+    {% for o in opciones.nivel %}<option {{ 'selected' if o == f.nivel }}>{{ o }}</option>{% endfor %}</select>
+  {% if f.tipo %}<input type="hidden" name="tipo" value="{{ f.tipo }}">{% endif %}
+  <button>Filtrar</button>
+  {% if f.tabla or f.nivel or f.tipo %}<a href="{{ url_for('incidencias') }}" style="align-self:center">quitar filtros</a>{% endif %}
+</form>
+
+<div class="card" style="margin-bottom:16px">
+  <h2>Por tipo</h2>
+  <table>
+    <tr><th>Hoja</th><th>Nivel</th><th>Tipo</th><th class="r">n</th></tr>
+    {% for a in agregado %}
+    <tr><td>{{ a.tabla_origen }}</td><td><span class="tag {{ a.nivel }}">{{ a.nivel }}</span></td>
+        <td><a href="{{ url_for('incidencias', tabla=a.tabla_origen, nivel=a.nivel, tipo=a.tipo) }}">{{ a.tipo }}</a></td>
+        <td class="r">{{ a.n }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div class="card">
+  <h2>Detalle ({{ filas|length }} de {{ total }})</h2>
+  <table>
+    <tr><th>Hoja</th><th>Id origen</th><th>Nivel</th><th>Tipo</th><th>Detalle</th></tr>
+    {% for x in filas %}
+    <tr><td>{{ x.tabla_origen }}</td><td><code>{{ x.id_origen }}</code></td>
+        <td><span class="tag {{ x.nivel }}">{{ x.nivel }}</span></td><td>{{ x.tipo }}</td>
+        <td class="muted">{{ x.detalle }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}

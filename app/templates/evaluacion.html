@@ -1,0 +1,27 @@
+{% extends "base.html" %}{% block titulo %}Evaluación{% endblock %}{% block cuerpo %}
+<h1>Evaluación contra los errores inyectados</h1>
+<p class="sub">Compara <code>data/raw/errores_inyectados.csv</code> (la "verdad") con lo que registró la ETL.</p>
+
+<div class="card">
+  <table>
+    <tr><th>Hoja</th><th>Error inyectado</th><th>Esperado</th><th class="r">n</th><th class="r">Detectados</th><th class="r">Bien tratados</th></tr>
+    {% for x in por_tipo %}
+    <tr><td>{{ x.hoja }}</td><td>{{ x.tipo_error }}</td><td><span class="tag {{ x.esperado }}">{{ x.esperado }}</span></td>
+        <td class="r">{{ x.n }}</td><td class="r">{{ x.det }}</td><td class="r {{ 'cero' if x.ok < x.n }}">{{ x.ok }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+
+{% if fallos %}
+<div class="card" style="margin-top:16px">
+  <h2>Casos no resueltos como se esperaba</h2>
+  <table>
+    <tr><th>Hoja</th><th>Id</th><th>Error</th><th>Esperado</th><th>Obtenido</th></tr>
+    {% for x in fallos %}
+    <tr><td>{{ x.hoja }}</td><td>{{ x.id_registro }}</td><td>{{ x.tipo_error }}</td><td>{{ x.esperado }}</td>
+        <td>{{ x.nivel_obtenido or 'no detectado' }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+{% endif %}
+{% endblock %}

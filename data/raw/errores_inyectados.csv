@@ -1,0 +1,629 @@
+hoja,id_registro,tipo_error,esperado,detalle
+pacientes,P00068,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00361,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00431,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00617,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00747,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00833,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00561,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00756,fecha_nacimiento_vacia,RECHAZO,
+pacientes,P00336,fecha_nacimiento_invalida,RECHAZO,30/02/1988
+pacientes,P00468,fecha_nacimiento_invalida,RECHAZO,ayer
+pacientes,P00717,fecha_nacimiento_invalida,RECHAZO,30/02/1988
+pacientes,P00029,fecha_nacimiento_invalida,RECHAZO,31/02/1975
+pacientes,P00788,fecha_nacimiento_invalida,RECHAZO,ayer
+pacientes,P00054,fecha_nacimiento_invalida,RECHAZO,30/02/1988
+pacientes,P00653,fecha_nacimiento_futura,RECHAZO,
+pacientes,P00316,fecha_nacimiento_futura,RECHAZO,
+pacientes,P00325,fecha_nacimiento_futura,RECHAZO,
+pacientes,P00598,fecha_nacimiento_futura,RECHAZO,
+pacientes,P00088,fecha_nacimiento_futura,RECHAZO,
+pacientes,P00914,fecha_nacimiento_implausible,RECHAZO,
+pacientes,P00770,fecha_nacimiento_implausible,RECHAZO,
+pacientes,P00141,fecha_nacimiento_implausible,RECHAZO,
+pacientes,P00271,fecha_nacimiento_implausible,RECHAZO,
+pacientes,P00182,fecha_nacimiento_implausible,RECHAZO,
+pacientes,P00922,fecha_en_texto,CORREGIDO,13/04/1999
+pacientes,P00398,fecha_en_texto,CORREGIDO,22/07/2015
+pacientes,P00992,fecha_en_texto,CORREGIDO,2003-04-11
+pacientes,P00878,fecha_en_texto,CORREGIDO,23/04/2011
+pacientes,P00930,fecha_en_texto,CORREGIDO,09-03-1962
+pacientes,P00600,fecha_en_texto,CORREGIDO,07/08/1935
+pacientes,P00236,fecha_en_texto,CORREGIDO,04/11/1995
+pacientes,P00022,fecha_en_texto,CORREGIDO,13-04-2015
+pacientes,P00995,fecha_en_texto,CORREGIDO,24-10-1939
+pacientes,P00024,fecha_en_texto,CORREGIDO,1970-04-26
+pacientes,P00970,fecha_en_texto,CORREGIDO,1972-02-06
+pacientes,P00586,fecha_en_texto,CORREGIDO,10-01-1943
+pacientes,P00680,fecha_en_texto,CORREGIDO,1959-04-19
+pacientes,P00643,fecha_en_texto,CORREGIDO,11/10/2016
+pacientes,P00659,fecha_en_texto,CORREGIDO,21/07/2007
+pacientes,P00241,fecha_en_texto,CORREGIDO,28-03-1961
+pacientes,P00953,fecha_en_texto,CORREGIDO,29/08/2009
+pacientes,P00096,fecha_en_texto,CORREGIDO,09/05/1989
+pacientes,P00487,fecha_en_texto,CORREGIDO,2002-01-30
+pacientes,P00210,fecha_en_texto,CORREGIDO,2016-03-25
+pacientes,P00276,fecha_en_texto,CORREGIDO,25-01-1979
+pacientes,P00737,fecha_en_texto,CORREGIDO,1931-07-01
+pacientes,P00896,fecha_en_texto,CORREGIDO,1967-03-03
+pacientes,P00178,fecha_en_texto,CORREGIDO,31/03/1958
+pacientes,P00052,fecha_en_texto,CORREGIDO,1974-07-12
+pacientes,P00422,fecha_en_texto,CORREGIDO,25/08/2014
+pacientes,P00649,fecha_en_texto,CORREGIDO,21-10-1974
+pacientes,P00452,fecha_en_texto,CORREGIDO,03/03/1961
+pacientes,P00631,fecha_en_texto,CORREGIDO,1959-01-12
+pacientes,P00274,fecha_en_texto,CORREGIDO,08-06-1977
+pacientes,P00733,sexo_variante,CORREGIDO,'Hombre'
+pacientes,P00205,sexo_variante,CORREGIDO,'Hombre'
+pacientes,P00454,sexo_variante,CORREGIDO,'F'
+pacientes,P00196,sexo_variante,CORREGIDO,'mujer'
+pacientes,P00443,sexo_variante,CORREGIDO,'Varón'
+pacientes,P00857,sexo_variante,CORREGIDO,'F'
+pacientes,P00159,sexo_variante,CORREGIDO,' H'
+pacientes,P00033,sexo_variante,CORREGIDO,'M '
+pacientes,P00315,sexo_variante,CORREGIDO,'h'
+pacientes,P00286,sexo_variante,CORREGIDO,'h'
+pacientes,P00256,sexo_variante,CORREGIDO,'Hombre'
+pacientes,P00670,sexo_variante,CORREGIDO,'Hombre'
+pacientes,P00489,sexo_variante,CORREGIDO,'F'
+pacientes,P00982,sexo_variante,CORREGIDO,' H'
+pacientes,P00269,sexo_variante,CORREGIDO,' H'
+pacientes,P00401,sexo_variante,CORREGIDO,'m'
+pacientes,P00629,sexo_variante,CORREGIDO,'F'
+pacientes,P00741,sexo_variante,CORREGIDO,'Varón'
+pacientes,P00701,sexo_variante,CORREGIDO,'h'
+pacientes,P00497,sexo_variante,CORREGIDO,'F'
+pacientes,P00095,sexo_variante,CORREGIDO,'hombre'
+pacientes,P00011,sexo_variante,CORREGIDO,'M '
+pacientes,P00508,sexo_variante,CORREGIDO,'Mujer'
+pacientes,P00146,sexo_variante,CORREGIDO,'M '
+pacientes,P00943,sexo_variante,CORREGIDO,'mujer'
+pacientes,P00352,sexo_variante,CORREGIDO,'F'
+pacientes,P00751,sexo_variante,CORREGIDO,'mujer'
+pacientes,P00432,sexo_variante,CORREGIDO,' H'
+pacientes,P00744,sexo_variante,CORREGIDO,'Varón'
+pacientes,P00230,sexo_variante,CORREGIDO,'F'
+pacientes,P00774,sexo_variante,CORREGIDO,'m'
+pacientes,P00415,sexo_variante,CORREGIDO,'mujer'
+pacientes,P00768,sexo_variante,CORREGIDO,'Mujer'
+pacientes,P00459,sexo_variante,CORREGIDO,'V'
+pacientes,P00798,sexo_variante,CORREGIDO,'h'
+pacientes,P00646,sexo_variante,CORREGIDO,'M '
+pacientes,P00280,sexo_variante,CORREGIDO,'Varón'
+pacientes,P00081,sexo_variante,CORREGIDO,'mujer'
+pacientes,P00106,sexo_variante,CORREGIDO,'V'
+pacientes,P00602,sexo_variante,CORREGIDO,'Mujer'
+pacientes,P00357,sexo_desconocido,AVISO,'?'
+pacientes,P00051,sexo_desconocido,AVISO,'?'
+pacientes,P00145,sexo_desconocido,AVISO,'?'
+pacientes,P00565,sexo_desconocido,AVISO,'No consta'
+pacientes,P00985,sexo_desconocido,AVISO,None
+pacientes,P00944,sexo_desconocido,AVISO,'?'
+pacientes,P00321,sexo_desconocido,AVISO,'No consta'
+pacientes,P00848,sexo_desconocido,AVISO,None
+pacientes,P00409,sexo_desconocido,AVISO,'No consta'
+pacientes,P00491,sexo_desconocido,AVISO,'X'
+pacientes,P00323,sexo_desconocido,AVISO,None
+pacientes,P00990,sexo_desconocido,AVISO,None
+pacientes,P00064,cp_sin_cero_inicial,CORREGIDO,8867
+pacientes,P00263,cp_sin_cero_inicial,CORREGIDO,8127
+pacientes,P00211,cp_sin_cero_inicial,CORREGIDO,1096
+pacientes,P00042,cp_sin_cero_inicial,CORREGIDO,8890
+pacientes,P00541,cp_sin_cero_inicial,CORREGIDO,1185
+pacientes,P00300,cp_sin_cero_inicial,CORREGIDO,8768
+pacientes,P00188,cp_sin_cero_inicial,CORREGIDO,1577
+pacientes,P00812,cp_sin_cero_inicial,CORREGIDO,8598
+pacientes,P00538,cp_sin_cero_inicial,CORREGIDO,8539
+pacientes,P00505,cp_sin_cero_inicial,CORREGIDO,8427
+pacientes,P00133,cp_sin_cero_inicial,CORREGIDO,8253
+pacientes,P00568,cp_sin_cero_inicial,CORREGIDO,1694
+pacientes,P00047,cp_sin_cero_inicial,CORREGIDO,8909
+pacientes,P00512,cp_sin_cero_inicial,CORREGIDO,1027
+pacientes,P00411,cp_sin_cero_inicial,CORREGIDO,1698
+pacientes,P00816,cp_sin_cero_inicial,CORREGIDO,8404
+pacientes,P00644,cp_sin_cero_inicial,CORREGIDO,1605
+pacientes,P00556,cp_sin_cero_inicial,CORREGIDO,8858
+pacientes,P00528,cp_sin_cero_inicial,CORREGIDO,1158
+pacientes,P00566,cp_sin_cero_inicial,CORREGIDO,8084
+pacientes,P00545,cp_invalido,AVISO,'ABCDE'
+pacientes,P00972,cp_invalido,AVISO,'99999X'
+pacientes,P00835,cp_invalido,AVISO,'ABCDE'
+pacientes,P00781,cp_invalido,AVISO,''
+pacientes,P00570,cp_invalido,AVISO,'99999X'
+pacientes,P00536,cp_invalido,AVISO,'2801'
+pacientes,P00742,cp_invalido,AVISO,'2801'
+pacientes,P00319,cp_invalido,AVISO,'ABCDE'
+pacientes,P00947,duplicado_exacto,CORREGIDO,
+pacientes,P00767,duplicado_exacto,CORREGIDO,
+pacientes,P00338,duplicado_exacto,CORREGIDO,
+pacientes,P00382,duplicado_exacto,CORREGIDO,
+pacientes,P00942,duplicado_exacto,CORREGIDO,
+pacientes,P00069,duplicado_exacto,CORREGIDO,
+pacientes,P00882,duplicado_exacto,CORREGIDO,
+pacientes,P00086,duplicado_exacto,CORREGIDO,
+pacientes,P00655,duplicado_exacto,CORREGIDO,
+pacientes,P00715,duplicado_exacto,CORREGIDO,
+pacientes,P00451,duplicado_exacto,CORREGIDO,
+pacientes,P00112,duplicado_exacto,CORREGIDO,
+pacientes,P00473,duplicado_exacto,CORREGIDO,
+pacientes,P00303,duplicado_exacto,CORREGIDO,
+pacientes,P00212,duplicado_exacto,CORREGIDO,
+pacientes,P00290,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00926,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00482,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00111,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00025,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00250,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00195,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00470,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00936,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,P00486,duplicado_conflictivo,RECHAZO,misma id con distinta fecha de nacimiento
+pacientes,(vacío),id_vacio,RECHAZO,
+pacientes,(vacío),id_vacio,RECHAZO,
+pacientes,(vacío),id_vacio,RECHAZO,
+visitas,V001740,fecha_inicio_vacia,RECHAZO,
+visitas,V001786,fecha_inicio_vacia,RECHAZO,
+visitas,V000420,fecha_inicio_vacia,RECHAZO,
+visitas,V001302,fecha_inicio_vacia,RECHAZO,
+visitas,V001385,fecha_inicio_vacia,RECHAZO,
+visitas,V002635,fecha_inicio_vacia,RECHAZO,
+visitas,V002478,fecha_inicio_vacia,RECHAZO,
+visitas,V000105,fecha_inicio_vacia,RECHAZO,
+visitas,V003178,visita_antes_nacimiento,RECHAZO,
+visitas,V000284,visita_antes_nacimiento,RECHAZO,
+visitas,V003346,visita_antes_nacimiento,RECHAZO,
+visitas,V000489,visita_antes_nacimiento,RECHAZO,
+visitas,V000213,visita_antes_nacimiento,RECHAZO,
+visitas,V001883,visita_antes_nacimiento,RECHAZO,
+visitas,V002482,visita_antes_nacimiento,RECHAZO,
+visitas,V002048,visita_antes_nacimiento,RECHAZO,
+visitas,V002769,visita_fecha_futura,RECHAZO,
+visitas,V001104,visita_fecha_futura,RECHAZO,
+visitas,V002473,visita_fecha_futura,RECHAZO,
+visitas,V000990,visita_fecha_futura,RECHAZO,
+visitas,V002297,visita_fecha_futura,RECHAZO,
+visitas,V000013,fin_anterior_a_inicio,CORREGIDO,
+visitas,V001328,fin_anterior_a_inicio,CORREGIDO,
+visitas,V001050,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002826,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002992,fin_anterior_a_inicio,CORREGIDO,
+visitas,V000277,fin_anterior_a_inicio,CORREGIDO,
+visitas,V001336,fin_anterior_a_inicio,CORREGIDO,
+visitas,V003315,fin_anterior_a_inicio,CORREGIDO,
+visitas,V000724,fin_anterior_a_inicio,CORREGIDO,
+visitas,V000178,fin_anterior_a_inicio,CORREGIDO,
+visitas,V001075,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002584,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002577,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002122,fin_anterior_a_inicio,CORREGIDO,
+visitas,V000159,fin_anterior_a_inicio,CORREGIDO,
+visitas,V003411,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002497,fin_anterior_a_inicio,CORREGIDO,
+visitas,V001255,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002738,fin_anterior_a_inicio,CORREGIDO,
+visitas,V003505,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002532,fin_anterior_a_inicio,CORREGIDO,
+visitas,V003470,fin_anterior_a_inicio,CORREGIDO,
+visitas,V002101,fin_anterior_a_inicio,CORREGIDO,
+visitas,V001666,fin_anterior_a_inicio,CORREGIDO,
+visitas,V003310,fin_anterior_a_inicio,CORREGIDO,
+visitas,V003223,fecha_fin_vacia,CORREGIDO,
+visitas,V001762,fecha_fin_vacia,CORREGIDO,
+visitas,V001612,fecha_fin_vacia,CORREGIDO,
+visitas,V001492,fecha_fin_vacia,CORREGIDO,
+visitas,V001122,fecha_fin_vacia,CORREGIDO,
+visitas,V002253,fecha_fin_vacia,CORREGIDO,
+visitas,V002940,fecha_fin_vacia,CORREGIDO,
+visitas,V001138,fecha_fin_vacia,CORREGIDO,
+visitas,V001317,fecha_fin_vacia,CORREGIDO,
+visitas,V003451,fecha_fin_vacia,CORREGIDO,
+visitas,V001934,fecha_fin_vacia,CORREGIDO,
+visitas,V000677,fecha_fin_vacia,CORREGIDO,
+visitas,V003014,fecha_fin_vacia,CORREGIDO,
+visitas,V000088,fecha_fin_vacia,CORREGIDO,
+visitas,V000405,fecha_fin_vacia,CORREGIDO,
+visitas,V003042,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V001125,tipo_visita_variante,CORREGIDO,'HOSPITALIZACIÓN'
+visitas,V000702,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V001841,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V002825,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V000594,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V000113,tipo_visita_variante,CORREGIDO,'URGENCIAS '
+visitas,V000909,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V001997,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V000219,tipo_visita_variante,CORREGIDO,'Ingreso'
+visitas,V002202,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V001970,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V003501,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V002311,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V000729,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V000452,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V000382,tipo_visita_variante,CORREGIDO,'HOSPITALIZACIÓN'
+visitas,V001753,tipo_visita_variante,CORREGIDO,'HOSPITALIZACIÓN'
+visitas,V000235,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V000672,tipo_visita_variante,CORREGIDO,'URGENCIAS '
+visitas,V002828,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V002848,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V002821,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V000118,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V002699,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V003432,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V002827,tipo_visita_variante,CORREGIDO,'URGENCIAS '
+visitas,V002686,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V001102,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V000408,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V002332,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V003413,tipo_visita_variante,CORREGIDO,'Urg.'
+visitas,V000359,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V000996,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V001575,tipo_visita_variante,CORREGIDO,'AMBULATORIA '
+visitas,V002927,tipo_visita_variante,CORREGIDO,'urgencias'
+visitas,V003000,tipo_visita_variante,CORREGIDO,'Urg.'
+visitas,V003207,tipo_visita_variante,CORREGIDO,'Consulta externa'
+visitas,V002632,tipo_visita_variante,CORREGIDO,'urgencias'
+visitas,V002441,tipo_visita_variante,CORREGIDO,'ambulatoria'
+visitas,V002328,tipo_visita_sin_mapeo,AVISO,Telefónica
+visitas,V000745,tipo_visita_sin_mapeo,AVISO,Domicilio
+visitas,V000268,tipo_visita_sin_mapeo,AVISO,Videoconsulta
+visitas,V003510,tipo_visita_sin_mapeo,AVISO,Telefónica
+visitas,V000111,tipo_visita_sin_mapeo,AVISO,Domicilio
+visitas,V001120,tipo_visita_sin_mapeo,AVISO,Videoconsulta
+visitas,V002333,tipo_visita_sin_mapeo,AVISO,Domicilio
+visitas,V000202,tipo_visita_sin_mapeo,AVISO,Telefónica
+visitas,V001808,tipo_visita_sin_mapeo,AVISO,Videoconsulta
+visitas,V002050,tipo_visita_sin_mapeo,AVISO,Videoconsulta
+visitas,V001383,tipo_visita_sin_mapeo,AVISO,Telefónica
+visitas,V002044,tipo_visita_sin_mapeo,AVISO,Telefónica
+visitas,V002887,tipo_visita_sin_mapeo,AVISO,Videoconsulta
+visitas,V000409,tipo_visita_sin_mapeo,AVISO,Domicilio
+visitas,V000777,tipo_visita_sin_mapeo,AVISO,Videoconsulta
+visitas,V900000,paciente_inexistente,RECHAZO,
+visitas,V900001,paciente_inexistente,RECHAZO,
+visitas,V900002,paciente_inexistente,RECHAZO,
+visitas,V900003,paciente_inexistente,RECHAZO,
+visitas,V900004,paciente_inexistente,RECHAZO,
+visitas,V900005,paciente_inexistente,RECHAZO,
+visitas,V900006,paciente_inexistente,RECHAZO,
+visitas,V900007,paciente_inexistente,RECHAZO,
+visitas,V900008,paciente_inexistente,RECHAZO,
+visitas,V900009,paciente_inexistente,RECHAZO,
+diagnosticos,D0002422,cie10_sin_punto,CORREGIDO,I219
+diagnosticos,D0001006,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0000427,cie10_sin_punto,CORREGIDO,J45909
+diagnosticos,D0001077,cie10_sin_punto,CORREGIDO,J189
+diagnosticos,D0002228,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0002219,cie10_sin_punto,CORREGIDO,K219
+diagnosticos,D0001243,cie10_sin_punto,CORREGIDO,G43909
+diagnosticos,D0000942,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0001159,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0000159,cie10_sin_punto,CORREGIDO,J45909
+diagnosticos,D0001010,cie10_sin_punto,CORREGIDO,I4891
+diagnosticos,D0000272,cie10_sin_punto,CORREGIDO,G43909
+diagnosticos,D0001535,cie10_sin_punto,CORREGIDO,E119
+diagnosticos,D0002128,cie10_sin_punto,CORREGIDO,F329
+diagnosticos,D0002575,cie10_sin_punto,CORREGIDO,J45909
+diagnosticos,D0000764,cie10_sin_punto,CORREGIDO,K219
+diagnosticos,D0001493,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0000405,cie10_sin_punto,CORREGIDO,F329
+diagnosticos,D0002242,cie10_sin_punto,CORREGIDO,I219
+diagnosticos,D0001004,cie10_sin_punto,CORREGIDO,F329
+diagnosticos,D0001108,cie10_sin_punto,CORREGIDO,E119
+diagnosticos,D0001561,cie10_sin_punto,CORREGIDO,I509
+diagnosticos,D0002341,cie10_sin_punto,CORREGIDO,J449
+diagnosticos,D0000515,cie10_sin_punto,CORREGIDO,E785
+diagnosticos,D0001046,cie10_sin_punto,CORREGIDO,E039
+diagnosticos,D0001843,cie10_sin_punto,CORREGIDO,G43909
+diagnosticos,D0002254,cie10_sin_punto,CORREGIDO,I219
+diagnosticos,D0000731,cie10_sin_punto,CORREGIDO,E785
+diagnosticos,D0000727,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0000213,cie10_sin_punto,CORREGIDO,K219
+diagnosticos,D0000367,cie10_sin_punto,CORREGIDO,E039
+diagnosticos,D0001503,cie10_sin_punto,CORREGIDO,E785
+diagnosticos,D0000700,cie10_sin_punto,CORREGIDO,J45909
+diagnosticos,D0002747,cie10_sin_punto,CORREGIDO,I509
+diagnosticos,D0002188,cie10_sin_punto,CORREGIDO,E039
+diagnosticos,D0002760,cie10_sin_punto,CORREGIDO,I219
+diagnosticos,D0001889,cie10_sin_punto,CORREGIDO,G43909
+diagnosticos,D0002481,cie10_sin_punto,CORREGIDO,J189
+diagnosticos,D0001659,cie10_sin_punto,CORREGIDO,M1990
+diagnosticos,D0001298,cie10_sin_punto,CORREGIDO,E039
+diagnosticos,D0001731,cie10_minusculas_espacios,CORREGIDO,'i10'
+diagnosticos,D0000751,cie10_minusculas_espacios,CORREGIDO,'k21.9'
+diagnosticos,D0000349,cie10_minusculas_espacios,CORREGIDO,' E66.9 '
+diagnosticos,D0000395,cie10_minusculas_espacios,CORREGIDO,'f32.9'
+diagnosticos,D0001652,cie10_minusculas_espacios,CORREGIDO,'k21.9'
+diagnosticos,D0001940,cie10_minusculas_espacios,CORREGIDO,'e03.9'
+diagnosticos,D0000036,cie10_minusculas_espacios,CORREGIDO,'k21.9'
+diagnosticos,D0002715,cie10_minusculas_espacios,CORREGIDO,' E78.5 '
+diagnosticos,D0000229,cie10_minusculas_espacios,CORREGIDO,' F32.9 '
+diagnosticos,D0001789,cie10_minusculas_espacios,CORREGIDO,' E78.5 '
+diagnosticos,D0000702,cie10_minusculas_espacios,CORREGIDO,' J45.909 '
+diagnosticos,D0000186,cie10_minusculas_espacios,CORREGIDO,'i21.9'
+diagnosticos,D0002203,cie10_minusculas_espacios,CORREGIDO,'i48.91'
+diagnosticos,D0000585,cie10_minusculas_espacios,CORREGIDO,'j18.9'
+diagnosticos,D0000454,cie10_minusculas_espacios,CORREGIDO,' J44.9 '
+diagnosticos,D0000568,cie10_minusculas_espacios,CORREGIDO,' J44.9 '
+diagnosticos,D0001149,cie10_minusculas_espacios,CORREGIDO,' E03.9 '
+diagnosticos,D0000041,cie10_minusculas_espacios,CORREGIDO,' F32.9 '
+diagnosticos,D0001964,cie10_minusculas_espacios,CORREGIDO,' J45.909 '
+diagnosticos,D0001618,cie10_minusculas_espacios,CORREGIDO,' F32.9 '
+diagnosticos,D0001856,cie10_minusculas_espacios,CORREGIDO,'m19.90'
+diagnosticos,D0001220,cie10_minusculas_espacios,CORREGIDO,' I48.91 '
+diagnosticos,D0002728,cie10_minusculas_espacios,CORREGIDO,' J18.9 '
+diagnosticos,D0002725,cie10_minusculas_espacios,CORREGIDO,' I21.9 '
+diagnosticos,D0001444,cie10_minusculas_espacios,CORREGIDO,'f32.9'
+diagnosticos,D0000912,cie10_minusculas_espacios,CORREGIDO,'m19.90'
+diagnosticos,D0001667,cie10_minusculas_espacios,CORREGIDO,' F32.9 '
+diagnosticos,D0000653,cie10_minusculas_espacios,CORREGIDO,' F32.9 '
+diagnosticos,D0002466,cie10_minusculas_espacios,CORREGIDO,' E78.5 '
+diagnosticos,D0000548,cie10_minusculas_espacios,CORREGIDO,' J45.909 '
+diagnosticos,D0000544,cie10_sin_mapeo,AVISO,R69.X
+diagnosticos,D0000469,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001950,cie10_sin_mapeo,AVISO,Z99.99X
+diagnosticos,D0001564,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001790,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001002,cie10_sin_mapeo,AVISO,XYZ
+diagnosticos,D0002468,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001118,cie10_sin_mapeo,AVISO,XYZ
+diagnosticos,D0002544,cie10_sin_mapeo,AVISO,R69.X
+diagnosticos,D0000008,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001141,cie10_sin_mapeo,AVISO,R69.X
+diagnosticos,D0001668,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001408,cie10_sin_mapeo,AVISO,Z99.99X
+diagnosticos,D0000440,cie10_sin_mapeo,AVISO,XYZ
+diagnosticos,D0001232,cie10_sin_mapeo,AVISO,Z99.99X
+diagnosticos,D0001306,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0001124,cie10_sin_mapeo,AVISO,XYZ
+diagnosticos,D0001322,cie10_sin_mapeo,AVISO,Z99.99X
+diagnosticos,D0001825,cie10_sin_mapeo,AVISO,R69.X
+diagnosticos,D0001575,cie10_sin_mapeo,AVISO,E11.999
+diagnosticos,D0000679,codigo_vacio,RECHAZO,
+diagnosticos,D0000334,codigo_vacio,RECHAZO,
+diagnosticos,D0001039,codigo_vacio,RECHAZO,
+diagnosticos,D0002607,codigo_vacio,RECHAZO,
+diagnosticos,D0000429,codigo_vacio,RECHAZO,
+diagnosticos,D0000977,codigo_vacio,RECHAZO,
+diagnosticos,D0001919,codigo_vacio,RECHAZO,
+diagnosticos,D0002661,codigo_vacio,RECHAZO,
+diagnosticos,D0002695,codigo_vacio,RECHAZO,
+diagnosticos,D0002182,codigo_vacio,RECHAZO,
+diagnosticos,D0001490,visita_inexistente,AVISO,V867841
+diagnosticos,D0001145,visita_inexistente,AVISO,V825988
+diagnosticos,D0002314,visita_inexistente,AVISO,V857454
+diagnosticos,D0000958,visita_inexistente,AVISO,V842946
+diagnosticos,D0002696,visita_inexistente,AVISO,V829871
+diagnosticos,D0000940,visita_inexistente,AVISO,V831394
+diagnosticos,D0002141,visita_inexistente,AVISO,V843736
+diagnosticos,D0002130,visita_inexistente,AVISO,V825150
+diagnosticos,D0002124,visita_inexistente,AVISO,V831517
+diagnosticos,D0000582,visita_inexistente,AVISO,V851594
+diagnosticos,D0000007,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000892,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0002323,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000924,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0001213,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000431,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000817,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0001269,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0002092,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000605,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000793,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0001012,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0002010,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000644,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+diagnosticos,D0000190,fecha_vacia,CORREGIDO,se usa la fecha de la visita
+medicamentos,M0000935,atc_vacio_con_nombre,CORREGIDO,Paracetamol
+medicamentos,M0000628,atc_vacio_con_nombre,CORREGIDO,Paracetamol
+medicamentos,M0000144,atc_vacio_con_nombre,CORREGIDO,Sertralina
+medicamentos,M0001265,atc_vacio_con_nombre,CORREGIDO,Amlodipino
+medicamentos,M0001018,atc_vacio_con_nombre,CORREGIDO,Salbutamol
+medicamentos,M0000728,atc_vacio_con_nombre,CORREGIDO,Ibuprofeno
+medicamentos,M0000457,atc_vacio_con_nombre,CORREGIDO,Ibuprofeno
+medicamentos,M0001739,atc_vacio_con_nombre,CORREGIDO,Furosemida
+medicamentos,M0001004,atc_vacio_con_nombre,CORREGIDO,Levotiroxina
+medicamentos,M0000103,atc_vacio_con_nombre,CORREGIDO,Metformina
+medicamentos,M0001427,atc_vacio_con_nombre,CORREGIDO,Atorvastatina
+medicamentos,M0000109,atc_vacio_con_nombre,CORREGIDO,Lisinopril
+medicamentos,M0001806,atc_vacio_con_nombre,CORREGIDO,Salbutamol
+medicamentos,M0000904,atc_vacio_con_nombre,CORREGIDO,Sertralina
+medicamentos,M0000497,atc_vacio_con_nombre,CORREGIDO,Amlodipino
+medicamentos,M0000336,atc_vacio_con_nombre,CORREGIDO,Atorvastatina
+medicamentos,M0000494,atc_vacio_con_nombre,CORREGIDO,Omeprazol
+medicamentos,M0001258,atc_vacio_con_nombre,CORREGIDO,Ibuprofeno
+medicamentos,M0001277,atc_vacio_con_nombre,CORREGIDO,Atorvastatina
+medicamentos,M0001176,atc_vacio_con_nombre,CORREGIDO,Atorvastatina
+medicamentos,M0001403,atc_vacio_con_nombre,CORREGIDO,Levotiroxina
+medicamentos,M0001327,atc_vacio_con_nombre,CORREGIDO,Ibuprofeno
+medicamentos,M0001173,atc_vacio_con_nombre,CORREGIDO,Sertralina
+medicamentos,M0001031,atc_vacio_con_nombre,CORREGIDO,Omeprazol
+medicamentos,M0000959,atc_vacio_con_nombre,CORREGIDO,Lisinopril
+medicamentos,M0000445,atc_sin_mapeo,AVISO,N02BE99
+medicamentos,M0000482,atc_sin_mapeo,AVISO,X99ZZ99
+medicamentos,M0000795,atc_sin_mapeo,AVISO,A10
+medicamentos,M0000335,atc_sin_mapeo,AVISO,X99ZZ99
+medicamentos,M0000206,atc_sin_mapeo,AVISO,X99ZZ99
+medicamentos,M0000002,atc_sin_mapeo,AVISO,X99ZZ99
+medicamentos,M0001137,atc_sin_mapeo,AVISO,N02BE99
+medicamentos,M0000729,atc_sin_mapeo,AVISO,N02BE99
+medicamentos,M0001134,atc_sin_mapeo,AVISO,A10
+medicamentos,M0000400,atc_sin_mapeo,AVISO,A10
+medicamentos,M0001376,atc_sin_mapeo,AVISO,X99ZZ99
+medicamentos,M0000981,atc_sin_mapeo,AVISO,N02BE99
+medicamentos,M0000779,atc_sin_mapeo,AVISO,X99ZZ99
+medicamentos,M0000760,atc_sin_mapeo,AVISO,N02BE99
+medicamentos,M0001466,atc_sin_mapeo,AVISO,N02BE99
+medicamentos,M0000747,dosis_negativa,AVISO,
+medicamentos,M0001656,dosis_negativa,AVISO,
+medicamentos,M0001099,dosis_negativa,AVISO,
+medicamentos,M0001221,dosis_negativa,AVISO,
+medicamentos,M0001531,dosis_negativa,AVISO,
+medicamentos,M0001497,dosis_negativa,AVISO,
+medicamentos,M0001252,dosis_negativa,AVISO,
+medicamentos,M0001117,dosis_negativa,AVISO,
+medicamentos,M0001540,dosis_negativa,AVISO,
+medicamentos,M0001451,dosis_negativa,AVISO,
+medicamentos,M0000200,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001146,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0000261,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0000214,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001737,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001313,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001352,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0000581,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0000384,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001219,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0000256,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001078,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001778,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001550,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0001217,fin_anterior_a_inicio,CORREGIDO,
+medicamentos,M0000693,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000739,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000407,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001777,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000671,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000422,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000406,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000617,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001236,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001489,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000986,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001566,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000213,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001686,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001311,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000965,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000276,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0001375,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000027,fecha_fin_vacia,CORREGIDO,
+medicamentos,M0000587,fecha_fin_vacia,CORREGIDO,
+laboratorio,L0000669,unidad_convertible,CORREGIDO,6.3 mmol/l
+laboratorio,L0002941,unidad_convertible,CORREGIDO,4.6 mmol/L
+laboratorio,L0002489,unidad_convertible,CORREGIDO,6.4 mmol/L
+laboratorio,L0003890,unidad_convertible,CORREGIDO,7.4 mmol/l
+laboratorio,L0001870,unidad_convertible,CORREGIDO,7.1 mmol/L
+laboratorio,L0003745,unidad_convertible,CORREGIDO,6.3 mmol/L
+laboratorio,L0002640,unidad_convertible,CORREGIDO,5.1 mmol/L
+laboratorio,L0000346,unidad_convertible,CORREGIDO,7.5 mmol/L
+laboratorio,L0000266,unidad_convertible,CORREGIDO,4.1 mmol/l
+laboratorio,L0001051,unidad_convertible,CORREGIDO,7.0 mmol/l
+laboratorio,L0006203,unidad_convertible,CORREGIDO,6.9 mmol/l
+laboratorio,L0003028,unidad_convertible,CORREGIDO,4.8 mmol/L
+laboratorio,L0001400,unidad_convertible,CORREGIDO,7.7 mmol/L
+laboratorio,L0005126,unidad_convertible,CORREGIDO,3.9 mmol/L
+laboratorio,L0002595,unidad_convertible,CORREGIDO,5.3 mmol/l
+laboratorio,L0003002,unidad_convertible,CORREGIDO,6.7 mmol/L
+laboratorio,L0001683,unidad_convertible,CORREGIDO,4.2 mmol/L
+laboratorio,L0003909,unidad_convertible,CORREGIDO,6.5 mmol/l
+laboratorio,L0003064,unidad_convertible,CORREGIDO,6.2 mmol/L
+laboratorio,L0000039,unidad_convertible,CORREGIDO,6.3 mmol/l
+laboratorio,L0006838,unidad_convertible,CORREGIDO,7.8 mmol/l
+laboratorio,L0006617,unidad_convertible,CORREGIDO,4.0 mmol/l
+laboratorio,L0002299,unidad_convertible,CORREGIDO,7.5 mmol/L
+laboratorio,L0004083,unidad_convertible,CORREGIDO,5.0 mmol/L
+laboratorio,L0003479,unidad_convertible,CORREGIDO,6.3 mmol/l
+laboratorio,L0004158,decimal_con_coma,CORREGIDO,"16,1"
+laboratorio,L0006232,decimal_con_coma,CORREGIDO,"4,2"
+laboratorio,L0006369,decimal_con_coma,CORREGIDO,"12,2"
+laboratorio,L0006901,decimal_con_coma,CORREGIDO,"4,4"
+laboratorio,L0000828,decimal_con_coma,CORREGIDO,"78,0"
+laboratorio,L0003870,decimal_con_coma,CORREGIDO,"5,3"
+laboratorio,L0001585,decimal_con_coma,CORREGIDO,"5,7"
+laboratorio,L0005909,decimal_con_coma,CORREGIDO,"71,0"
+laboratorio,L0002203,decimal_con_coma,CORREGIDO,"1,21"
+laboratorio,L0000938,decimal_con_coma,CORREGIDO,"16,4"
+laboratorio,L0000972,decimal_con_coma,CORREGIDO,"60,0"
+laboratorio,L0006187,decimal_con_coma,CORREGIDO,"1,12"
+laboratorio,L0005072,decimal_con_coma,CORREGIDO,"0,96"
+laboratorio,L0005410,decimal_con_coma,CORREGIDO,"49,2"
+laboratorio,L0005545,decimal_con_coma,CORREGIDO,"0,82"
+laboratorio,L0006300,decimal_con_coma,CORREGIDO,"14,7"
+laboratorio,L0003881,decimal_con_coma,CORREGIDO,"5,7"
+laboratorio,L0001171,decimal_con_coma,CORREGIDO,"95,5"
+laboratorio,L0004646,decimal_con_coma,CORREGIDO,"1,05"
+laboratorio,L0004408,decimal_con_coma,CORREGIDO,"0,57"
+laboratorio,L0003896,decimal_con_coma,CORREGIDO,"0,59"
+laboratorio,L0000595,decimal_con_coma,CORREGIDO,"1,14"
+laboratorio,L0001167,decimal_con_coma,CORREGIDO,"0,74"
+laboratorio,L0005848,decimal_con_coma,CORREGIDO,"1,19"
+laboratorio,L0000537,decimal_con_coma,CORREGIDO,"4,1"
+laboratorio,L0000570,decimal_con_coma,CORREGIDO,"93,4"
+laboratorio,L0004041,decimal_con_coma,CORREGIDO,"0,79"
+laboratorio,L0002921,decimal_con_coma,CORREGIDO,"48,9"
+laboratorio,L0003197,decimal_con_coma,CORREGIDO,"0,97"
+laboratorio,L0000207,decimal_con_coma,CORREGIDO,"69,7"
+laboratorio,L0001588,decimal_con_coma,CORREGIDO,"12,6"
+laboratorio,L0005109,decimal_con_coma,CORREGIDO,"6,1"
+laboratorio,L0004797,decimal_con_coma,CORREGIDO,"14,9"
+laboratorio,L0004227,decimal_con_coma,CORREGIDO,"4,3"
+laboratorio,L0000621,decimal_con_coma,CORREGIDO,"0,97"
+laboratorio,L0001288,decimal_con_coma,CORREGIDO,"4,5"
+laboratorio,L0001387,decimal_con_coma,CORREGIDO,"6,6"
+laboratorio,L0002328,decimal_con_coma,CORREGIDO,"12,4"
+laboratorio,L0001061,decimal_con_coma,CORREGIDO,"5,5"
+laboratorio,L0004217,decimal_con_coma,CORREGIDO,"61,9"
+laboratorio,L0001169,valor_con_operador,CORREGIDO,>107
+laboratorio,L0002890,valor_con_operador,CORREGIDO,<34
+laboratorio,L0004015,valor_con_operador,CORREGIDO,>90
+laboratorio,L0003130,valor_con_operador,CORREGIDO,<4.3
+laboratorio,L0000781,valor_con_operador,CORREGIDO,>144
+laboratorio,L0000209,valor_con_operador,CORREGIDO,>171
+laboratorio,L0000285,valor_con_operador,CORREGIDO,<107
+laboratorio,L0000166,valor_con_operador,CORREGIDO,>193
+laboratorio,L0001831,valor_con_operador,CORREGIDO,>0.83
+laboratorio,L0003281,valor_con_operador,CORREGIDO,<123
+laboratorio,L0003495,valor_con_operador,CORREGIDO,>144
+laboratorio,L0006375,valor_con_operador,CORREGIDO,<14.9
+laboratorio,L0004582,valor_con_operador,CORREGIDO,<6.6
+laboratorio,L0002969,valor_con_operador,CORREGIDO,<103
+laboratorio,L0004016,valor_con_operador,CORREGIDO,<1.06
+laboratorio,L0001481,valor_no_numerico,AVISO,pendiente
+laboratorio,L0005060,valor_no_numerico,AVISO,hemolizada
+laboratorio,L0006851,valor_no_numerico,AVISO,pendiente
+laboratorio,L0000662,valor_no_numerico,AVISO,pendiente
+laboratorio,L0004584,valor_no_numerico,AVISO,hemolizada
+laboratorio,L0001356,valor_no_numerico,AVISO,ver informe
+laboratorio,L0001641,valor_no_numerico,AVISO,hemolizada
+laboratorio,L0003470,valor_no_numerico,AVISO,hemolizada
+laboratorio,L0001655,valor_no_numerico,AVISO,ver informe
+laboratorio,L0004055,valor_no_numerico,AVISO,pendiente
+laboratorio,L0001143,valor_no_numerico,AVISO,N/D
+laboratorio,L0002816,valor_no_numerico,AVISO,pendiente
+laboratorio,L0000964,valor_no_numerico,AVISO,ver informe
+laboratorio,L0000799,valor_no_numerico,AVISO,ver informe
+laboratorio,L0001189,valor_no_numerico,AVISO,N/D
+laboratorio,L0004779,valor_implausible,AVISO,0.001
+laboratorio,L0006167,valor_implausible,AVISO,123456
+laboratorio,L0001494,valor_implausible,AVISO,123456
+laboratorio,L0005783,valor_implausible,AVISO,-5
+laboratorio,L0003000,valor_implausible,AVISO,9999
+laboratorio,L0001371,valor_implausible,AVISO,123456
+laboratorio,L0001303,valor_implausible,AVISO,9999
+laboratorio,L0004934,valor_implausible,AVISO,0.001
+laboratorio,L0001368,valor_implausible,AVISO,0.001
+laboratorio,L0002786,valor_implausible,AVISO,0.001
+laboratorio,L0002405,valor_implausible,AVISO,9999
+laboratorio,L0006836,valor_implausible,AVISO,-5
+laboratorio,L0003366,valor_implausible,AVISO,123456
+laboratorio,L0002882,valor_implausible,AVISO,0.001
+laboratorio,L0006449,valor_implausible,AVISO,-5
+laboratorio,L0003048,loinc_sin_mapeo,AVISO,LAB123
+laboratorio,L0006396,loinc_sin_mapeo,AVISO,LAB123
+laboratorio,L0002417,loinc_sin_mapeo,AVISO,2345
+laboratorio,L0001359,loinc_sin_mapeo,AVISO,99999-9
+laboratorio,L0001754,loinc_sin_mapeo,AVISO,99999-9
+laboratorio,L0003788,loinc_sin_mapeo,AVISO,LAB123
+laboratorio,L0001365,loinc_sin_mapeo,AVISO,2345
+laboratorio,L0002189,loinc_sin_mapeo,AVISO,LAB123
+laboratorio,L0003753,loinc_sin_mapeo,AVISO,LAB123
+laboratorio,L0003643,loinc_sin_mapeo,AVISO,99999-9
+laboratorio,L0004242,unidad_vacia,AVISO,
+laboratorio,L0002610,unidad_vacia,AVISO,
+laboratorio,L0005530,unidad_vacia,AVISO,
+laboratorio,L0003791,unidad_vacia,AVISO,
+laboratorio,L0005059,unidad_vacia,AVISO,
+laboratorio,L0000101,unidad_vacia,AVISO,
+laboratorio,L0002378,unidad_vacia,AVISO,
+laboratorio,L0006889,unidad_vacia,AVISO,
+laboratorio,L0003059,unidad_vacia,AVISO,
+laboratorio,L0006439,unidad_vacia,AVISO,
